@@ -80,7 +80,7 @@ DATABASES = {
     }
 }
 database_url = os.environ.get("DATABASE_URL")
-DATABASES["default"]=dj_database_url.parse("database_url")
+DATABASES["default"]=dj_database_url.parse(database_url)
 #postgres://learnbloodgroup_user:AXd09YubvOYbPBWsXy3Ii29YGGtP6trt@dpg-ckpo16e2eoec73888opg-a.oregon-postgres.render.com/learnbloodgroup
 
 # Password validation
