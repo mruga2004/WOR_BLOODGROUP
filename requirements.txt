@@ -6,7 +6,7 @@ charset-normalizer==3.3.0
 click==8.1.7
 colorama==0.4.6
 distlib==0.3.7
-Django==4.0.0
+Django==3.2.22
 EasyProcess==1.1
 entrypoint2==1.1
 filelock==3.12.4
